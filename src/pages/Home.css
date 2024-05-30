@@ -1,0 +1,65 @@
+/* Home.css */
+.home {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.home h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.converter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 380px;
+}
+
+.converter {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.converter h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.converter input,
+.converter select,
+.converter button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.converter input,
+.converter select {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.converter button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.converter button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #333;
+}
